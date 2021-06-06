@@ -1,0 +1,35 @@
+.price,
+.discountPrice {
+  margin: 0.2rem;
+  background: white;
+}
+
+span {
+  background: white;
+}
+
+i {
+  background: white;
+}
+
+img {
+  border: 1px hidden black;
+  border-radius: 0.5rem;
+}
+
+.offer {
+  font-size: 0.8rem;
+  color: orangered;
+  margin: 0.2rem;
+}
+
+.typeProduct {
+  font-weight: 400;
+  background: white;
+}
+
+.productName {
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+  background: white;
+}

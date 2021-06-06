@@ -1,66 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&display=swap");
 
-.offerSection{
-    margin-top: 0.5rem;
-    display:flex; /* this is the recent change made*/
-    margin: auto;
-    max-width: 100%;
+.offerSection {
+  display: flex; /* this is the recent change made */
+  height: 20rem;
+  width: auto;
+  max-width: 100%;
+  background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/4/28/a70471ea-3613-4eb9-afd2-5c78e25a84a31619610673464-desktop-men.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.offerSectionImage{
-    max-width: 100%;
-    width: auto;
-    height: auto;
+.offerSectionImage {
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
-@meadi only screen and (max-width:650px){
-    .offerSectionImage{
-        max-width:auto;
-    }
+@media only screen and (max-width: 650px) {
+  .offerSectionImage {
+    max-width: auto;
+  }
 }
 
-.brandListingSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* grid-template-columns: 1fr 1fr 1fr;*/
-    max-width: 100%;
-    margin: auto;
-    background-color: whitesmoke;
+.brandListingSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  max-width: 100%;
+  margin: auto;
+  background-color: whitesmoke;
 }
 
-.subHeading{
-    text-align: center;
-    max-width: 400px;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: rgb(39,37,37);
-    font-family: "Libre Baskerville";
-    font-size: 1.5rem;
+.subHeading {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(39, 37, 37);
+  font-family: "Libre Baskerville";
+  font-size: 1.5rem;
 }
 
-.brandCard{
-    border: 1px hidden black;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color: white;
-    box-shadow: 2px 2px 2px rgb(112,109,109);
-    width: 12rem;
+.brandCard {
+  border: 1px hidden black;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(112, 109, 109);
+  width: 12rem;
 }
 
-.brandCard img{
-    height: 5rem;
-    border: 1px hidden white;
-    border-radius: 50rem;
-    width: 5rem;
+.brandCard img {
+  height: 5rem;
+  border: 1px hidden white;
+  border-radius: 50rem;
+  width: 5rem;
 }
 
-.brandCard h5{
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    color: rgb(27,22,22);
-    font-family: "Playfair Display";
+.brandCard h5 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: rgb(27, 22, 22);
+  font-family: "Playfair Display";
 }
